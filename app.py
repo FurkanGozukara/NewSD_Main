@@ -182,7 +182,7 @@ with gr.Blocks() as app:
                     number_of_images_per_prompt = gr.Slider(
                         label="Number Of Images To Generate",
                         minimum=1,
-                        maximum=9999999,
+                        maximum=200,
                         step=1,
                         value=1,
                     )
